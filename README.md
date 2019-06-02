@@ -1,4 +1,4 @@
-## This exercise is connecting to remote server using nodeJs net package
+## This exercise is about connecting to remote server using nodeJs net package
 
 ## How to run
 ``` node app.js```
