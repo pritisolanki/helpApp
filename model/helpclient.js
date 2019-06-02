@@ -8,9 +8,7 @@ class helpclient extends EventEmmiter {
         
         this.address = address || HOST;
         this.port = port || PORT;
-        
         this.heartbeatListener = this.heartbeat.bind(this);
- 
         this.init();
         this.index = uuid();
     }
